@@ -1,0 +1,12 @@
+default:
+    extensions:
+        Behat\MinkExtension:
+            base_url: https://eat24hours.com
+            sessions:
+                default:
+                  goutte: ~
+    suites:
+        example_suite:
+          contexts:
+            - FeatureContext
+            - Behat\MinkExtension\Context\MinkContext

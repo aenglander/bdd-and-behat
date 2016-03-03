@@ -1,0 +1,19 @@
+{
+    "name": "aenglander/behat-and-bdd",
+    "description": "Example for Behat testing",
+    "require-dev": {
+        "behat/behat": "^3.0",
+        "behat/mink-extension": "^2.2",
+        "behat/mink-goutte-driver": "^1.2"
+    },
+    "config": {
+        "bin-dir": "bin"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Adam",
+            "email": "adam@launchkey.com"
+        }
+    ]
+}
